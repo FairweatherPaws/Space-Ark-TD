@@ -13,6 +13,6 @@ public class PaddleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(10*Input.GetAxis("Horizontal"),0));
     }
 }
