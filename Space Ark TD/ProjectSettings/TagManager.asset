@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - End Zone
+  - Wall
+  - Paddle
+  - Pellet
+  - Enemy
   layers:
   - Default
   - TransparentFX

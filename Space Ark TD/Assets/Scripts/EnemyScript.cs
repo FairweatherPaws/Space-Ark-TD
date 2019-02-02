@@ -22,7 +22,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rigbod.velocity.y > -1) { rigbod.gravityScale = 0.01f; }
+        if (rigbod.velocity.y > -0.3) { rigbod.gravityScale = 0.01f; }
         else { rigbod.gravityScale = 0; }
     }
 
@@ -35,7 +35,7 @@ public class EnemyScript : MonoBehaviour
         
         if (collision.gameObject.tag == "Paddle") { hitpoints -= 3; ChangeBar(); rigbod.AddRelativeForce(new Vector2(horizontalForce, 3*horizontalForce)); }
         if (collision.gameObject.tag == "Wall") { hitpoints -= 1; ChangeBar(); rigbod.AddRelativeForce(new Vector2(-horizontalForce, 0)); }
-
+        if (collision.gameObject.tag == "Pellet") { hitpoints -= 6; ChangeBar(); }
     }
 
     private void ChangeBar()
@@ -43,11 +43,15 @@ public class EnemyScript : MonoBehaviour
         Vector3 v = healthBar.transform.localScale;
         healthBar.transform.localScale = new Vector3((float)hitpoints / (float)maxHitpoints, v.y, v.z);
         healthBar.GetComponent<SpriteRenderer>().color = new Color((maxHitpoints - hitpoints) * (255/maxHitpoints), hitpoints * (255 / maxHitpoints), 0);
-        if (hitpoints < 1) { Destroy(this.gameObject); }
+        if (hitpoints < 1) {
+            gameController.GetComponent<GameController>().ChangeScore(maxHitpoints);
+            
+            Destroy(this.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "End Zone") { gameController.GetComponent<GameController>().triggerLoss(); }
+        if (collision.gameObject.tag == "End Zone") { gameController.GetComponent<GameController>().TriggerLoss(); }
     }
 }
