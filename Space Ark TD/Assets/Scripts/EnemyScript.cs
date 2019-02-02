@@ -22,7 +22,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rigbod.velocity.y > -8) { rigbod.gravityScale = 0.2f; }
+        if (rigbod.velocity.y > -1) { rigbod.gravityScale = 0.01f; }
         else { rigbod.gravityScale = 0; }
     }
 
@@ -32,9 +32,9 @@ public class EnemyScript : MonoBehaviour
         float scaleMultiplier = collision.transform.localScale.x;
         float scaleCoefficient = transform.position.x;
         float horizontalForce = 100 * scaleCoefficient / scaleMultiplier;
-        rigbod.AddRelativeForce(new Vector2(horizontalForce, horizontalForce));
-        if (collision.gameObject.tag == "Paddle") { hitpoints -= 3; ChangeBar(); }
-        if (collision.gameObject.tag == "Wall") { hitpoints -= 1; ChangeBar(); }
+        
+        if (collision.gameObject.tag == "Paddle") { hitpoints -= 3; ChangeBar(); rigbod.AddRelativeForce(new Vector2(horizontalForce, 3*horizontalForce)); }
+        if (collision.gameObject.tag == "Wall") { hitpoints -= 1; ChangeBar(); rigbod.AddRelativeForce(new Vector2(-horizontalForce, 0)); }
 
     }
 

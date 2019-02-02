@@ -21,7 +21,7 @@ public class SpawnScript : MonoBehaviour
         if (spawnTimer < 0)
         {
             GameObject go = Instantiate(enemy, new Vector3(Random.Range(-4, 4), 12, 0), Quaternion.identity);
-            spawnTimer = 4;
+            spawnTimer = 5f;
         }
     }
 }
