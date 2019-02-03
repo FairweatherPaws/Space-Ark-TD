@@ -119,373 +119,68 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8013796437143146503, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735686, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -9.7
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 8013796437143146500, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
+    - target: {fileID: 1071735689, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 5676991952480357463, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
+    - target: {fileID: 1071735688, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
+      propertyPath: m_Size.x
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4285645274552836439, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 1071735688, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
+      propertyPath: m_Center.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4285645274552836439, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 9037105381259554453, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7800082176592193021, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3286901698133303485, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 6914778540093682169, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3533933632321010379, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709790343382126617, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443028044756844099, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1897672773690372154, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 8807068790745260304, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 3843545306276083660, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 68047141344120198, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 4779088380808654363, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 8394136571624944926, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623972075083999508, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 996465128436985353, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 3058962039047438885, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3676597371043568507, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 7027245966121151338, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 194293698763757521, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1318884335186760791, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 5809736557693128324, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 185753586567483743, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7173490202586134674, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 6414363920114531689, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 946585933748957020, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6437242478038790036, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 6806355062920746454, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 2640890708792330620, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498441784159107856, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 6037931173183283114, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 595914781668779643, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3027205442577389066, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 1180920368057191184, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 572336260669577518, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2620181046727093515, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 1364842697187138785, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 7071702858638849017, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4591022356086717750, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 7982390495568182607, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 9132027118429770010, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3779116995508894775, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 2047313645048196539, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781215694209231618, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2013564833580892107, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 5682858379654248790, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 8691106049354300075, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5687710906661184059, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 338107355066437038, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 2608154007400561813, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734346359337238778, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3855524789997881738, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606409030966629082, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2837537826195168170, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 8095250620481575036, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 2503330803063959881, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 628254286687733846, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: PlacementTileMobile
-      objectReference: {fileID: 0}
-    - target: {fileID: 7214262317181868333, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Name
-      value: GridMesh
-      objectReference: {fileID: 0}
-    - target: {fileID: 5288953930445430371, guid: 1e92197af75e9b64dba3279f58a81afe,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
+    - target: {fileID: 1071735690, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
+      propertyPath: dimensions.x
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1e92197af75e9b64dba3279f58a81afe, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 1de7404bfdf5e364a9823800a00e320d, type: 3}
 --- !u!1 &787022167
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,25 +337,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93819ddc550e974469e890ba23f5c5ab, type: 3}
---- !u!1 &1071735686 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8013796437143146503, guid: 1e92197af75e9b64dba3279f58a81afe,
-    type: 3}
-  m_PrefabInstance: {fileID: 718418820}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1071735687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071735686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d14ab9172d9615241b0f39f60f84d007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turretGrid: {fileID: 1071735686}
 --- !u!1 &1910680655
 GameObject:
   m_ObjectHideFlags: 0
