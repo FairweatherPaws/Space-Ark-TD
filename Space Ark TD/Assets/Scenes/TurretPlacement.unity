@@ -592,8 +592,13 @@ PrefabInstance:
         type: 3}
       propertyPath: towerLibrary
       value: 
-      objectReference: {fileID: 11400000, guid: f9a88c696ebce45318e1ae33adc9cfbc,
+      objectReference: {fileID: 11400000, guid: f5d917335aa679748a7e2fd90a992eeb,
         type: 2}
+    - target: {fileID: 6762207730026629325, guid: 3bab1285811341546a069fdebe2a2cb7,
+        type: 3}
+      propertyPath: startingCurrency
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bab1285811341546a069fdebe2a2cb7, type: 3}
 --- !u!114 &281860665 stripped
@@ -624,7 +629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &313898939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,22 +1008,22 @@ PrefabInstance:
     - target: {fileID: 2817658041134367558, guid: 8ea205bfc3297e04cbd2faf7e6e7a086,
         type: 3}
       propertyPath: mapSize.x
-      value: -32.795723
+      value: -32.900814
       objectReference: {fileID: 0}
     - target: {fileID: 2817658041134367558, guid: 8ea205bfc3297e04cbd2faf7e6e7a086,
         type: 3}
       propertyPath: mapSize.y
-      value: -34.069138
+      value: -34.106266
       objectReference: {fileID: 0}
     - target: {fileID: 2817658041134367558, guid: 8ea205bfc3297e04cbd2faf7e6e7a086,
         type: 3}
       propertyPath: mapSize.width
-      value: 45.403294
+      value: 45.5258
       objectReference: {fileID: 0}
     - target: {fileID: 2817658041134367558, guid: 8ea205bfc3297e04cbd2faf7e6e7a086,
         type: 3}
       propertyPath: mapSize.height
-      value: 45.481487
+      value: 45.511692
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ea205bfc3297e04cbd2faf7e6e7a086, type: 3}
