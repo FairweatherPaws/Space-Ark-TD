@@ -27,6 +27,7 @@ Space Ark TD/*.opendb
 # Unity3D generated meta files
 Space Ark TD/*.pidb.meta
 Space Ark TD/*.pdb.meta
+Space Ark TD/*.meta
 
 # Unity3D Generated File On Crash Reports
 Space Ark TD/sysinfo.txt
@@ -34,3 +35,4 @@ Space Ark TD/sysinfo.txt
 # Builds
 Space Ark TD/*.apk
 Space Ark TD/*.unitypackage
+*.meta

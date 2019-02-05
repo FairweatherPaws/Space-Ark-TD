@@ -9,7 +9,7 @@ public class GridCreator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Transform container = turretGrid.transform.FindChild("Container");
+        Transform container = turretGrid.transform.Find("Container");
         foreach(Transform child in container)
         {
             gridParts.Add(child.gameObject);
@@ -28,7 +28,7 @@ public class GridCreator : MonoBehaviour
     {
         foreach (GameObject g in gridParts)
         {
-            g.transform.FindChild("GridMesh").GetComponent<MeshRenderer>().enabled = true;
+            g.transform.Find("GridMesh").GetComponent<MeshRenderer>().enabled = true;
             yield return new WaitForSeconds(0.06f);
         }
     }
