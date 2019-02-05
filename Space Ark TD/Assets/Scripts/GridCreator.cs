@@ -29,7 +29,7 @@ public class GridCreator : MonoBehaviour
         foreach (GameObject g in gridParts)
         {
             g.transform.Find("GridMesh").GetComponent<MeshRenderer>().enabled = true;
-            yield return new WaitForSeconds(0.06f);
+            yield return new WaitForSeconds(0.04f);
         }
     }
 }
