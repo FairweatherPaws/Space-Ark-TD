@@ -96,7 +96,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0
   durability: 0
-  ignoreTimer: 2
 --- !u!50 &6253811420814173776
 Rigidbody2D:
   serializedVersion: 4

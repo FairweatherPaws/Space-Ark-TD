@@ -6,14 +6,16 @@ public class CannonScript : MonoBehaviour
 
 {
 
-    public int dakka, rateOfFire, leftAngle, rightAngle, pelletDurability;
-    private float fireTimer;
+    public int dakka, rateOfFire, reloadRate, leftAngle, rightAngle, pelletDurability, pelletCount;
+    private float fireTimer, firingAngle;
+    public float pelletCooldown;
+    private int shotNumber;
     public GameObject pellet;
 
     // Start is called before the first frame update
     void Start()
     {
-        fireTimer = 2;
+        fireTimer = pelletCooldown;
     }
 
     // Update is called once per frame
@@ -22,10 +24,16 @@ public class CannonScript : MonoBehaviour
         fireTimer -= Time.deltaTime * rateOfFire;
         if (fireTimer < 0)
         {
-            fireTimer = 2;
+            fireTimer = pelletCooldown;
+           
             GameObject newPellet = Instantiate(pellet, transform.position, Quaternion.identity);
-            float firingAngle = Random.Range(leftAngle, rightAngle);
-            
+            firingAngle = leftAngle + shotNumber * (rightAngle - leftAngle) / pelletCount + Random.Range(-1f, 1f);
+            if (shotNumber == pelletCount)
+            {
+                shotNumber = -1;
+                fireTimer = reloadRate;
+            }
+            shotNumber++;
             newPellet.GetComponent<Rigidbody2D>().AddForce(new Vector2(firingAngle, (50 - Mathf.Abs(firingAngle)) / 3));
             newPellet.GetComponent<PelletScript>().damage = dakka;
             newPellet.GetComponent<PelletScript>().durability = pelletDurability;
